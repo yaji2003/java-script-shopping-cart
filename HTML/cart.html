@@ -4,51 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Website</title>
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-    <link rel="stylesheet"href="../Bootstrap/css/bootstrap.min.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/cart.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <i class='bx bxs-cart bx-lg'></i>
 </head>
 
 <body>
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 text-center text-white p-1 ">
-                <h2>bag shopping</h2>
-            </div>
-            <div class="col-md-2 text-left text-light p-4">
-                <a href="../HTML/home.html">Home &#xf030;</a>
-               
-            </div>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-brand">My Cart</div>
+            <a href="../HTML/home.html">
+                <box-icon name='home' size="lg"></box-icon>
+            </a>
         </div>
-    </div>
+    </nav>
     <div class="container">
         <div class="row">
             <div class="col-md-3 p-4">
-                 <div class="card"> 
-                        <img src="https://tse4.mm.bing.net/th?id=OIP.CF6XGsg1MXUrVgggJYQ33AHaHa&pid=Api&P=0&h=180" class="card-img-top">
+                <div class="card">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.ly1l2WAMNLLQpv8tJ5W60QHaHa&pid=Api&P=0&h=180" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title ">chota bag</h5>
+                        <div>999rs</div>
+                        <input type="number" class="cart-quantity text-center" placeholder="Quantity" value="1" />
                     </div>
-                    <div class="card-body input1"> 
-                        <h5 class="card-title">wine bag</h5>
-                        <div class="cart-price">560rs</div>
-                            <input type="number" class="cart-quantity" >
+                </div>
+            </div>
+            <div class="col-md-3 p-4">
+                <div class="card">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.QlAh1bO1QTHmIzkmNDztjgHaHa&pid=Api&P=0&h=180" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title ">blue bag</h5>
+                        <div>1200rs</div>
+                        <input type="number" class="cart-quantity text-center" placeholder="Quantity" value="1"/>
                     </div>
-                   <div class="total">
-                    <h6>total amount in rs:</h6>
-                    <input type="value">
-                </div>
-                <div class="order now">
-                    <button >order now</button>
-                </div>
-
-                   
                 </div>
             </div>
         </div>
-        <script src="../Bootstrap/js/bootstrap.min.js"></script>
+        <div class="total">
+            <div class="total-content">
+                <div>Total Amout:</div>
+                <hr>
+                <div>2199rs</div>
+            </div>
+            <button>Order Now</button>
+        </div>
+        <script src="../JS/main.js"></script>
 </body>
+
 </html>
-        
+
+   
   
   
