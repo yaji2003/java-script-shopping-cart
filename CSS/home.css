@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital@1&display=swap');* .section{
+  background-color: #152a06;
+}
+.nav-bar>h1{
+  font-family: 'Lobster', cursive;
+}
+.nav-bar {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: #07444c;
+}
+.container {
+  background-color: #9db1dc;
+}
+.card {
+  color: black;
+}
+.image{
+  display:flex;
+  justify-content: end;
+  padding: auto;
+}
+.container-button {
+  display: block;
+    margin: 0 auto;
+    background-color: rgb(211, 160, 199);
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+.price {
+  font-weight: 800;
+  font-family: Lobster;
+  color: black;
+  font-size: 1rem;
+}
+.card-title{
+  font-weight: 800;
+  font-family: Lobster;
+  color: #07444c;
+  font-size:  1.5rem;
+}
+.message-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width:15rem;
+  font-size: 2rem;
+  text-align: center;
+  font-family:  sans-serif;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-image: "https://tse4.mm.bing.net/th?id=OIP.LtyHaOKKagzUfiWC8ndhywHaHa&pid=Api&P=0&h=180";
+  background-color: #9db1dc;
+  color: #c8074b;
+  border-radius: 4px;
+  display: none;
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital@1&display=swap');
+.nav-bar>h1{
+    font-family: 'Lobster', cursive;
+}
+.nav-bar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #ffccb4;
+}
+body{
+    background-color: #66615f;
+}
+.image{
+    display:flex;
+    justify-content: end;
+}
+
+  .message-center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width:15rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: #33cc33;
+    color: #fff;
+    border-radius: 4px;
+    display: none;
+  }
+.amount{
+    font-weight: 1000;
+    font-family: monospace;
+    font-size: 2rem;
+  }
+  .card-title{
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+  } */

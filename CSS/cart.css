@@ -1,12 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital@1&family=Signika:wght@500&display=swap');
 *{
+    background-image: "https://tse1.mm.bing.net/th?id=OIP.ziCmL8kg1dHrnmTNUJgp0AHaEr&pid=Api&P=0&h=180";
     margin: 0px;
     padding: 0px;
 }
 .navbar{
-    background-color: rgb(212, 125, 125);
+    background-color:cadetblue;
 }
 .navbar-brand{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lobster', cursive;
     font-size: 30px;
 }
 h5{
@@ -14,40 +17,61 @@ h5{
     font-size:20px;
     font-weight: 600;
 }
-.card>div>input{
+.quantity{
     width: 5rem;
+    
+}
+.close{
+    text-align: right;
 }
 .buttons{
     display: flex;
     justify-content: space-around;
 }
-button{
-    background-color: rgb(179, 61, 86) ;
-    border: none;
-    width: 60px;
-    height: 25px;
+.inputtag{
+    display: flex;
+    justify-content: space-between;
 }
+
 .container{
-    background-color: rgb(135, 195, 239);
+    background-color:aquamarine
 }
 .total{
-    background-color: rgb(219, 219, 243);
+    background-color:aqua ;
     border-radius: 15px;
 }
 .total-content{
     display: flex;
     justify-content: center;
     height: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+}
+.cart-content{
+    background-color:blue;
 }
 .total>button{
     display: block;
     margin: 0 auto;
-    background-color: rgb(211, 160, 199);
+    background-color:burlywood;
     width: 10rem;
     height: 2.5rem;
     font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lobster', cursive;
     border-radius: 5px;
 }
+.message-center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width:15rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: #33cc33;
+    color: #fff;
+    border-radius: 4px;
+    display: none;
+  }
